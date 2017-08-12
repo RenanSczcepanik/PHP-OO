@@ -1,14 +1,14 @@
 <?php include ("./Celular.php");
         $obj = new Celular("iPhone 6", "Apple", 5, 16, 8, 7500);
         echo $obj ->getNome();
-        echo ' ';
+        echo "<br />";
         echo $obj ->getMarca();
-        echo ' ';
+        echo "<br />";
         echo $obj ->getTam_tela();
-        echo ' ';
+        echo "<br />";
         echo $obj ->getMem_inter();
-        echo " \n";
+        echo "<br />";
         echo $obj ->getMem_ram();
-        echo ' ';
+        echo "<br />";
         echo $obj ->getPreco();
 ?>
